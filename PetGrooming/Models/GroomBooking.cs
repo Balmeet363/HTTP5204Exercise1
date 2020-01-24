@@ -24,5 +24,12 @@ namespace PetGrooming.Models
                 - A list of GroomServices
                 
         */
+        public int GroomerID { get; set; }
+        public string GroomFirstName { get; set; }
+        public string GroomerLastName { get; set; }
+        public string GroomerAddress { get; set; }
+        public string GroomerDOB { get; set; }
+        public int GroomerPhoneNumber { get; set; }
+        public string GroomerPrice { get; set; }
     }
 }
